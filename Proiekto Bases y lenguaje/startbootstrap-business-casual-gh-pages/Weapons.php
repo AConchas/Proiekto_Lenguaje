@@ -43,7 +43,7 @@
               </a>
             </li>
           </ul>
-
+          
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.php">Hasiera
