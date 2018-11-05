@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>World of Tanks</title>
+    <title>Pans & Cosas</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,10 +25,6 @@
 
   <body>
 
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-lower">World of Tanks</span>
-    </h1>
-
     <!-- Navigation -->
 
 
@@ -39,20 +35,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <ul id="logoa">
+          <li>
+              <a href="index.php"> 
+                <img src="img/Ogia.png" width="100" height="100"> 
+              </a>
+            </li>
+          </ul>
+
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.php">Home
+              <a class="nav-link text-uppercase text-expanded" href="index.php">Hasiera
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="Tanks.php">Tanks</a>
+              <a class="nav-link text-uppercase text-expanded" href="Tanks.php">Produktuak</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="Weapons.php">Weapons</a>
+              <a class="nav-link text-uppercase text-expanded" href="Weapons.php">Informazioa</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="About_us.php">About us</a>
+              <a class="nav-link text-uppercase text-expanded" href="About_us.php">Nortzuk gara</a>
             </li>
 
           </ul>
@@ -70,7 +75,7 @@
             </li>
             </ul>
             <li>
-              <a href="http:PHP/index.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
+              <a href="http:PHP/logout.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
             </li>
              <?php
            }
@@ -90,7 +95,7 @@
             </li>
             </ul>
             <li>
-              <a href="http:PHP/index.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
+              <a href="http:PHP/logout.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
             </li>
 
             <?php
@@ -108,7 +113,7 @@
 
           <ul class = "nav navbar-nav navbar-rigth">
             <li>
-              <a href="http:PHP/index.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
+              <a href="http:PHP/login.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
             </li>
           </ul>
 

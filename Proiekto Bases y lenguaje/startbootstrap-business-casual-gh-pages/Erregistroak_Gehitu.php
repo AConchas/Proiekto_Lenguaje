@@ -70,52 +70,12 @@
                 </li>
                 </ul>
                 <li>
-                  <a href="http:PHP/index.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
+                  <a href="http:PHP/logout.php"><img src="img/SesioaItxi.png" width="50" height="50"></a>
                 </li>
                  <?php
                }
              }
                  ?>
-
-
-                <?php
-
-                if (isset($_SESSION['user_id'])){
-                  if (37!=($_SESSION['user_id'])){
-
-                 ?>
-                 <ul class="navbar-nav mx-auto">
-                <li class="nav-item px-lg-4">
-                  <a class="nav-link text-uppercase text-expanded" href="info.php">Info</a>
-                </li>
-                </ul>
-                <li>
-                  <a href="http:PHP/index.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
-                </li>
-
-                <?php
-              }
-            }
-                ?>
-
-
-
-              <?php
-
-                    if (!isset($_SESSION['user_id'])){
-
-              ?>
-
-              <ul class = "nav navbar-nav navbar-rigth">
-                <li>
-                  <a href="http:PHP/index.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
-                </li>
-              </ul>
-
-              <?php
-                }
-              ?>
-
             </div>
           </div>
         </nav>
