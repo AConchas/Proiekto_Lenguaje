@@ -42,7 +42,7 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Login</h1>
+    <h1 class="titulo">Login</h1>
     <span>or <a href="signup.php">SignUp</a></span>
 
     <form action="login.php" method="POST">
