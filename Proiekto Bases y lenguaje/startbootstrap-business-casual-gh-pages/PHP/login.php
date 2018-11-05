@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+  <p>paco </p>
     <?php require 'partials/header.php' ?>
 
     <?php if(!empty($message)): ?>
