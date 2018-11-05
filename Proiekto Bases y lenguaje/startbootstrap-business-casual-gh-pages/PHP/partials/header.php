@@ -1,3 +1,3 @@
 <header>
-  <a href="../index.php">World of Tanks</a>
+  <a href="../index.php">Pans & Cosas</a>
 </header>

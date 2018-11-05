@@ -108,7 +108,7 @@
 
           <ul class = "nav navbar-nav navbar-rigth">
             <li>
-              <a href="http:PHP/index.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
+              <a href="http:PHP/login.php"><img src="img/SesioaHasi.png" width="50" height="50"></a>
             </li>
           </ul>
 
