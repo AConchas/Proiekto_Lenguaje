@@ -4,23 +4,16 @@ $link=ConnectDataBase();
 
 
 $Izena=$_POST['Izena'];
-$Herrialdea=$_POST['Herrialdea'];
-$Tipo=$_POST['Tipo'];
-$kainoia=$_POST['kainoia'];
-$Urtea=$_POST['Urtea'];
-$kantitatea=$_POST['kantitatea'];
-$Pisua=$_POST['Pisua'];
-$Blindaje=$_POST['Blindaje'];
-$Primaria=$_POST['Primaria'];
-$Secundaria=$_POST['Secundaria'];
-$Kostua=$_POST['Kostua'];
-$Fabri=$_POST['Fabri'];
+$veganoa=$_POST['veganoa'];
+$Prezioa=$_POST['Prezioa'];
+$stock=$_POST['stock'];
+
 
 
 
 mysqli_query($link,
-  "insert into tanques
-  values ('$Izena','$Tipo','$kainoia','$Herrialdea','$Urtea', $kantitatea, '$Pisua', '$Blindaje', '$Primaria', '$Secundaria', '$Kostua', '$Fabri')");
+  "insert into ogiak
+  values ('$Izena','$veganoa','$Prezioa','$stock')");
 
 mysqli_close($link);
 header("Location: ../Erregistroak_Gehitu.php");
