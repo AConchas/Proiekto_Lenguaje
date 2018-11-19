@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>World of Tanks</title>
+        <title>Pans & cosas</title>
 
         <!-- Bootstrap core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,12 +25,7 @@
 
       <body>
 
-        <h1 class="site-heading text-center text-white d-none d-lg-block">
-          <span class="site-heading-lower">World of Tanks</span>
-        </h1>
-
         <!-- Navigation -->
-
 
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
           <div class="container">
@@ -39,24 +34,24 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active px-lg-4">
-                  <a class="nav-link text-uppercase text-expanded" href="index.php">Home
-                    <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item px-lg-4">
-                  <a class="nav-link text-uppercase text-expanded" href="Tanks.php">Tanks</a>
-                </li>
-                <li class="nav-item px-lg-4">
-                  <a class="nav-link text-uppercase text-expanded" href="Weapons.php">Weapons</a>
-                </li>
-                <li class="nav-item px-lg-4">
-                  <a class="nav-link text-uppercase text-expanded" href="About_us.php">About us</a>
-                </li>
+              
+            <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.php">Hasiera
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Tanks.php">Produktuak</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Weapons.php">Informazioa</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="About_us.php">Nortzuk gara</a>
+            </li>
 
-              </ul>
-
+          </ul>
                 <?php
                   if (isset($_SESSION['user_id'])){
                       if (37==($_SESSION['user_id'])){

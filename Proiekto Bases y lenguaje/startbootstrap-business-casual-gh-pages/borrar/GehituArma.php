@@ -4,18 +4,17 @@ $link=ConnectDataBase();
 
 
 $Izena=$_POST['Izena'];
-$Herrialdea=$_POST['Herrialdea'];
-$Tipo=$_POST['Urtea'];
-$kainoia=$_POST['Kostua'];
-$Fabri=$_POST['Fabri'];
+$veganoa=$_POST['veganoa'];
+$Prezioa=$_POST['Prezioa'];
+$stock=$_POST['stock'];
 
 
 
 
 mysqli_query($link,
-  "insert into armak
-  values ('$Izena','$Herrialdea','$Tipo','$kainoia','$Fabri')");
-mysqli_free_result($emaitza);
+  "insert into bolleria
+  values ('$Izena','$veganoa','$Prezioa','$stock')");
+
 mysqli_close($link);
 header("Location: ../Erregistroak_Gehitu.php");
  ?>
