@@ -128,81 +128,8 @@
 
     <section class="page-section">
       <div class="container">
-        <div class="product-item">
+      <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.185692, -2.462483&amp;q=Txonta%2CEibar%20Guipuzcoa+(Pans%20%26%20Cosas)&amp;ie=UTF8&amp;t=h&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Add map to website</a></iframe></div><br />
 
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 class="section-heading mb-4">
-                M1 Garand (EEUU)
-              </h2>
-            </div>
-
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/M1_Garand.png" alt="">
-          <div class="product-item-description d-flex mr-auto">
-            <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">M1 Garand fusila, infanteriari kantitate handitan banatu zitzaion lehengo fusil erdi-automatikoa izan zen. Bi mundu gerren artean diseinatu zuen John Garandek Estatu Batuetan, 1936an bertako indar armatuek infanteriako arma nagusi bezala hartu zutelarik. Bigarren Mundu Gerran, Koreako Gerran eta neurri txikiagoan Vietnamgo Gerran erabili zen. Ofizialki 1957an M-14 fusilak ordeztu zuen. Springfield 1903 fusila ordeztu zuen fusil hau.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <div class="product-item">
-
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 class="section-heading mb-4">
-                Fusil Mauser K98 (Alemania)
-              </h2>
-            </div>
-
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/Karabine.png" alt="">
-          <div class="product-item-description d-flex mr-auto">
-            <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">Mauser Kar 98k edo Karabiner 98 Kurz sarrailazko fisil bat da non  7,92x57 mm kartutzoak erabiltzen dituen eta alemaniaren fusil estandarra izan zen.  </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <div class="product-item">
-
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 class="section-heading mb-4">
-                Fusil Tokarev T-40 (URSS)
-              </h2>
-            </div>
-
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/SVT-40.png" alt="">
-          <div class="product-item-description d-flex mr-auto">
-            <div class="bg-faded p-5 rounded"><br>
-              <p class="mb-0" align ="center">Tokarev T-40 edo SVT-40 fusil semiautomatiko bat da, non bigarren gerra mundialean serbitzuan sartu zen.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="container">
-        <div class="product-item">
-
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 class="section-heading mb-4">
-                38 Sanpachi-shiki hohējū (Japan)
-              </h2>
-            </div>
-
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/Type 38 rifle.png" alt="">
-          <div class="product-item-description d-flex mr-auto">
-            <div class="bg-faded p-5 rounded"><br>
-              <p class="mb-0" align ="center">38 Sanpachi-shiki hohējū edo Fusil Tipo 38 sarrailazko fisil bat izan zen,non japoniarren fusil estandarra izan zen. 38 Sanpachi-shiki hohējū bost balako kargadorea zuen. </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 

@@ -131,14 +131,14 @@
 
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 class="section-heading mb-4">
-                Panzer VI Tiger (Alemania)
+                Tostada
               </h2>
             </div>
 
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/Tiger.png" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/tostada.png" style="width:300px; height:4 00px;" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">Panzerkampfwagen VI Tiger Ausf. E, Alemaniako tanke astun bat izan zen. 1942tik Bigarren Mundu Gerrako Afrika eta Europako fronteetan erabilia izan zen. Berez, Hirugarren Reichak Sobietar Batasuna bereganatzeko Bizargorri Operazioaren lehenbiziko hilabeteetan T-34 eta KV-1 sobietar tankeez osatutako ezusteko erresistentzia blindatuari erantzun emateko asmoz sortua izan zen, tankearen Tiger ezizena, Ferdinand Porsche ingeniariak eman zion, erromatar zenbakia berriz, ondorengo Panzer VI Tiger II tanketik bereizteko gehitu zitzaion.</p>
+              <p class="mb-0" align ="center">Deliciosas tostadas de gran tamaño para servir sobre ellas todo tipo de bocados. Proceden de una masa extra hidratada de larga fermentación con masa madre. El ideal para los amantes de la rebanada crujiente.</p>
             </div>
           </div>
         </div>
@@ -151,15 +151,14 @@
 
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 class="section-heading mb-4">
-                M4 Sherman (EEUU)
+                Hanburgesa ogia
               </h2>
             </div>
 
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/M4_Sherman.png" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/burger.png"style="width:250px; height:300px; alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">M4 Sherman, ofizialki Medium Tank, M4, AEBeyako tanke bat izan zen. 1940an diseinatua eta 1941-1945 artean ekoitzia izan zen, eta 1941-1955 artean zerbitzuan egon zen. Bigarren Mundu Gerran AEBej nahiz Aliatuek erabili izan zuten. Koreako Gerran ere erabilia izan zen.
-                  Tankearen ekoizpenak 50.100 unitate gainditu zituen. Erresuma Batuan M4 tankeak "Sherman" ezizena jaso zuen, William Tecumseh Sherman jeneralaren omenez, herrialde honetan estatubatuar tankeei AEBetako Gerra Zibileko jeneralen izenak ipintzeko ohitura baizegoen, ondoren AEBetan ere izen hori erabiltzen hasi ziren.</p>
+              <p class="mb-0" align ="center">Para los fanáticos de la hamburguesa que saben que una buena carne, con ingredientes de primera, no se puede acompañar de un pan cualquiera. Nuestra Burger Clásica ofrece un pan exquisito con toda la resistencia que necesitas para rellenar tu hamburguesa con tus ingredientes preferidos y todo el sabor del pan artesano y fresco.</p>
             </div>
           </div>
         </div>
@@ -172,15 +171,14 @@
 
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 class="section-heading mb-4">
-                T-34 (URSS)
+                Baguette
               </h2>
             </div>
 
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/t34.png" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/baguette.png" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">T-34, Sobietar Batasunak ekoitzitako tanke bat izan zen. 1940-1958 artean 84.0701 unitate inguru ekoitzi ziren.
-                T-26 modeloa ordezkatzeko asmoz garatu zen. Bigarren Mundu Gerran Sobietar Batasuneko su potentzia orekatuena, eta mugikortasun eta babes onena zuen tankea izan zen. 1943eko amaieraldera, T-34-85 bertsio hobetua ekoitzi zen, potentzia handiagoko kanoiarekin.</p>
+              <p class="mb-0" align ="center">Una baguette​ (en francés literalmente 'varita') o baguete​ es una variedad de pan que se caracteriza por emplear harina de trigo, por ser mucho más largo que ancho y por su corteza crujiente. Es ideal para la elaboración de bocadillos.</p>
             </div>
           </div>
         </div>
@@ -193,14 +191,14 @@
 
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 class="section-heading mb-4">
-                Churchill (Britaina Handia)
+                Croissant
               </h2>
             </div>
 
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/churchill.png" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/croisant.png" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0" align ="center">Infantry Tank Mk IV (A22) (Bigarren Mundu Gerrako Tank, Infantry, A22) britainiarren tanke astuna izan zen, bere armadura lodiagatik, xasis luze luzea eta bogie anitzek inguratuta zeuden. beldarrak eta haien erabilera ibilgailu espezializatu espezializatuen oinarri gisa. Winston Churchill-en omenez izendatu zuten tanke multzo hau, Erresuma Batuko lehen ministroa eta Defentsa ministroa garai hartan, baina depositua garapenean parte hartu zuen lehen gerra garaian.</p>
+              <p class="mb-0" align ="center">El cruasán, ​ también escrito abundantemente en su grafía sin adaptar croissant, es una pieza de panadería de origen austriaco, cuya versión hojaldrada se desarrolló en Francia. Está hecho con una masa de hojaldre específica que contiene levadura, mantequilla o margarina.</p>
             </div>
           </div>
         </div>
