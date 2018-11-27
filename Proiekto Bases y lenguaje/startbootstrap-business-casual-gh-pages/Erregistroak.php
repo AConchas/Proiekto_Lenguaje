@@ -124,17 +124,9 @@
             <table align = "center">
               <tr>
                 <th>Izena</th>
-                <th>Herrialdea</th>
-                <th>Mota</th>
-                <th>Kainoia</th>
-                <th>Serbitzu Urtea</th>
-                <th>Kantitate Sortuak</th>
-                <th>Pisua</th>
-                <th>Blindaje</th>
-                <th>Arma Printzipala</th>
-                <th>Arma Sekundarioa</th>
-                <th> Kostua </th>
-                <th>Fabrikantea</th>
+                <th>Vegano</th>
+                <th>Prezioa</th>
+                <th>Stock</th>
               </tr>
 
               <?php
@@ -145,15 +137,7 @@
                         <td>%s</td>
                         <td>%s</td>
                         <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
-                        <td>%s</td>
+                        <td>%s</td>s
                       </tr>
                     " , $row["Nombre"], $row["Pais"], $row["Tipo"], $row["CalCanon"], $row["Anodeservicio"], $row["Cantidadcreados"], $row["Peso"], $row["Blindaje"], $row["ArmaPrimaria"], $row["ArmaSecundaria"],$row["CostePorUnidad"],$row["Fabri"]);
                 }

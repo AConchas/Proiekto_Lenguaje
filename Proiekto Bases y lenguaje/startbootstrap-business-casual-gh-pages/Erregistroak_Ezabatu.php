@@ -88,7 +88,7 @@
 
         </style>
 
-        		<h2>Tankeen informazioa</h2>
+        		<h2>Ogien informazioa</h2>
 
             <style type="text/css">
             		#content tr td{
@@ -173,23 +173,15 @@
         			$link=ConnectDataBase();
         			$Nombre=$_POST["Nombre"];
 
-            	$result=mysqli_query($link,"SELECT * FROM `tanques` where Nombre = '$Nombre'");
+            	$result=mysqli_query($link,"SELECT * FROM `ogiak` where Izena = '$Nombre'");
             		?>
             		<form action="PHP/Update.php" method= "post">
-            			<table id="content">
+            			<table id="content" align="center">
                     <tr>
                       <th>Izena</th>
-                      <th>Herrialdea</th>
-                      <th>Mota</th>
-                      <th>Kainoia</th>
-                      <th>Serbitzu Urtea</th>
-                      <th>Kantitate Sortuak</th>
-                      <th>Pisua</th>
-                      <th>Blindaje</th>
-                      <th>Color</th>
-                      <th>Arma Printzipala</th>
-                      <th>Arma Sekundarioa</th>
-                      <th>Frabrikantea</th>
+                      <th>Prezioa</th>
+                      <th>Vegano</th>
+                      <th>Stock</th>
 
             				<th></th>
             				<th></th>
@@ -200,18 +192,10 @@
             					echo '
 
             							<tr>
-            					   <td><input id="input-custom-id" type="text" name="Nombre" value="'.$row['Nombre'].'"></td>'.
-            						'<td><input id="input-custom-mug-nan" type="text" name="Pais" value="'.$row['Pais'].'"></td>'.
-            						'<td><input id="input-custom" type="text" name="Tipo" value="'.$row['Tipo'].'"></td>'.
-            						'<td><input id="input-custom" type="text" name="CalCanon" value="'.$row['CalCanon'].'"></td>'.
-            						'<td><input id="input-custom-id2" type="text" name="Anodeservicio" value="'.$row['Anodeservicio'].'"></td>'.
-            						'<td><input id="input-custom-id2" type="text" name="Cantidadcreados" value="'.$row['Cantidadcreados'].'"></td>'.
-            						'<td><input id="input-custom-id2" type="text" name="Peso" value="'.$row['Peso'].'"></td>'.
-            						'<td><input id="input-custom-posta" type="text" name="Blindaje" value="'.$row['Blindaje'].'"></td>'.
-            						'<td><input id="input-custom-mug-nan" type="text" name="ArmaPrincipal" value="'.$row['ArmaPrimaria'].'"></td>'.
-            						'<td><input id="input-custom-email" type="text" name="ArmaSecundaria" value="'.$row['ArmaSecundaria'].'"></td>'.
-                        '<td><input id="input-custom-email" type="text" name="CostePorUnidad" value="'.$row['CostePorUnidad'].'"></td>'.
-                        '<td><input id="input-custom-email" type="text" name="Fabri" value="'.$row['Fabri'].'"></td>'.
+            					   <td><input id="input-custom-id" type="text" name="Izena" value="'.$row['Izena'].'"></td>'.
+            						'<td><input id="input-custom-mug-nan" type="number" name="prezioa" value="'.$row['prezioa'].'"></td>'.
+            						'<td><input id="input-custom" type="number" name="vegano" value="'.$row['vegano'].'"></td>'.
+            						'<td><input id="input-custom" type="number" name="stock" value="'.$row['stock'].'"></td>'.
             						'<td><input type="image" src="img/Gorde.png" width="25" name="save"></td>
             						</tr>
             						';
@@ -225,7 +209,7 @@
 
 <!-- ----------------------------------------------------------------->
 <br><br>
-<h2>Armen informazioa</h2>
+<h2>Bolluen informazioa</h2>
 
 <style type="text/css">
     #content tr td{
@@ -310,16 +294,15 @@
   $link=ConnectDataBase();
   $Nombre=$_POST["Izena"];
 
-  $result=mysqli_query($link,"SELECT * FROM `armak` where Izena = '$Nombre'");
+  $result=mysqli_query($link,"SELECT * FROM `bolleria` where Izena = '$Nombre'");
     ?>
     <form action="PHP/UpdateArmak.php" method= "post">
       <table id="content" align="center">
         <tr>
           <th>Izena</th>
-          <th>Herrialdea</th>
-          <th>Urtea</th>
-          <th>Kostua</th>
-          <th>Fabrikantea</th>
+          <th>Vegano</th>
+          <th>Prezioa</th>
+          <th>Stock</th>
         <th></th>
         <th></th>
       </tr>
@@ -330,10 +313,9 @@
 
               <tr>
              <td><input id="input-custom-id" type="text" name="Izena" value="'.$row['Izena'].'"></td>'.
-            '<td><input id="input-custom-mug-nan" type="text" name="Herrialdea" value="'.$row['Herrialdea'].'"></td>'.
-            '<td><input id="input-custom" type="text" name="Urtea" value="'.$row['Urtea'].'"></td>'.
-            '<td><input id="input-custom" type="text" name="Kostua" value="'.$row['Kostua'].'"></td>'.
-            '<td><input id="input-custom" type="text" name="Fabri2" value="'.$row['Fabri'].'"></td>'.
+            '<td><input id="input-custom-mug-nan" type="number" name="vegano" value="'.$row['vegano'].'"></td>'.
+            '<td><input id="input-custom" type="number" name="prezioa" value="'.$row['prezioa'].'"></td>'.
+            '<td><input id="input-custom" type="number" name="stock" value="'.$row['stock'].'"></td>'.
             '<td><input type="image" src="img/Gorde.png" width="25" name="save"></td>
             </tr>
             ';
